@@ -24,8 +24,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem 'omniauth'
-gem "octokit"
-gem 'omniauth-github'
+gem "octokit", ">= 4.23.0"
+gem 'omniauth-github', '>= 1.1.2'
 gem "slim-rails"
 gem "haml-rails"
 # Use ActiveModel has_secure_password
